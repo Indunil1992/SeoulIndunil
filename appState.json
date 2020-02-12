@@ -1,0 +1,109 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "9fce3e3f-0432-4583-9d01-9ec9cf83baa3": {
+        "id": "9fce3e3f-0432-4583-9d01-9ec9cf83baa3",
+        "parent": null,
+        "name": "SeoulIndunil",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "03f15d2d-9742-484a-b70c-a91eb387f367"
+        ],
+        "isRemovable": false,
+        "filePath": "SeoulIndunil"
+      },
+      "03f15d2d-9742-484a-b70c-a91eb387f367": {
+        "id": "03f15d2d-9742-484a-b70c-a91eb387f367",
+        "parent": "9fce3e3f-0432-4583-9d01-9ec9cf83baa3",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SeoulIndunil/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapNortheast2Singaporecheckcalput",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "9fce3e3f-0432-4583-9d01-9ec9cf83baa3",
+    "openFiles": [
+      "03f15d2d-9742-484a-b70c-a91eb387f367"
+    ],
+    "currentFileId": "03f15d2d-9742-484a-b70c-a91eb387f367",
+    "resources": {
+      "apigapNortheast2Singaporecheckcalput": {
+        "name": "apigapNortheast2Singaporecheckcalput",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-northeast-2",
+          "apiMode": 1,
+          "apiName": "Singapore",
+          "apiId": "ooxm2yxq62",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "aynhibfjch",
+          "existingResources": {
+            "/check/cal": "42h7kw",
+            "/": "aynhibfjch",
+            "/check": "q1juya"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/check/cal",
+          "resourceName": "check/cal",
+          "resourceId": "42h7kw",
+          "restMethod": "PUT",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "qa",
+          "stageDeploymentId": "dwl6rg",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "SeoulIndunil",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-northeast-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1581498240048
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "SeoulIndunil",
+      "url": "https://github.com/Indunil1992/SeoulIndunil"
+    }
+  }
+}
